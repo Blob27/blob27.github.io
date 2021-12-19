@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'GeometosNeue';
+    src: url('Fonts/GeometosNeueBlack.woff') format('woff'),
+        url('Fonts/GeometosNeueBlack.woff2') format('woff2'),
+        url('Fonts/GeometosNeueBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+h1 {
+    font-family: GeometosNeue;
+    color: #46bddf;
+    text-align: center;
+}
+
+.block {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 28px;
+    font-family: GeometosNeue;
+    color: #1a1919;
+}
+
+.homepage {
+    margin-bottom: 6px;
+}
+
+.chapterpage {
+    margin-bottom: 15px;
+}
+
+.homepage:disabled {
+    opacity: 50%;
+}

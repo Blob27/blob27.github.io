@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html style = "background-color: #212121;">
+    <head>
+        <meta charset="utf-8">
+        <title>Wiskundeboek</title>
+        <link href="https://cdn.discordapp.com/attachments/876147354665902122/922158103871492146/math-icon-isolated-white-background-math-symbols-collection-math-icon-isolated-white-background-math-symbols-162610617.png" rel = "icon">
+        <link href="style.css" rel="stylesheet">
+        <script>
+            for(var i = 0; document.getElementsByClassName("homepage").length; i++) {
+                if(["Hoofdstuk 3", "Hoofdstuk 6", "Hoofdstuk 8"].includes(document.getElementsByClassName("homepage")[i].innerHTML)) {
+                    innerHTML = innerHTML + " (soon)";
+                    document.getElementsByClassName("homepage")[i].disabled = true;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Hoofdstukken</h1>
+        <div>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h1.html'">Hoofdstuk 1</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h2.html'">Hoofdstuk 2</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h3.html'">Hoofdstuk 3</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h4.html'">Hoofdstuk 4</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h5.html'">Hoofdstuk 5</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h6.html'">Hoofdstuk 6</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h7.html'">Hoofdstuk 7</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h8.html'">Hoofdstuk 8</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h9.html'">Hoofdstuk 9</button>
+            <button class = "block homepage" type = "button" onclick="window.location.href = 'Pages/h10.html'">Hoofdstuk 10</button>
+        </div>
+    </body>
+</html>
