@@ -25,6 +25,12 @@ h1 {
     border-radius: 28px;
     font-family: GeometosNeue;
     color: #1a1919;
+    transition: all .2s ease-in-out;
+    user-select: none;
+}
+
+.block:hover:not(.homepage:disabled) {
+    transform: scale(1.1)
 }
 
 .homepage {
@@ -37,4 +43,6 @@ h1 {
 
 .homepage:disabled {
     opacity: 50%;
+    cursor: not-allowed;
+    pointer-events: none;
 }
