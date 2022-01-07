@@ -13,7 +13,7 @@ h1 {
 }
 
 body {
-    height: 100%
+    height: 100%;
 }
 
 html {
@@ -45,7 +45,7 @@ html {
 }
 
 .block:hover:not(.homepage:disabled) {
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .homepage {
