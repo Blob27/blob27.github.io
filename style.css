@@ -18,6 +18,8 @@ body {
 
 html {
     height: 100%;
+    background-color: #212121;
+    scroll-behavior: smooth;
 }
 
 .block {
@@ -44,19 +46,20 @@ html {
     }
 }
 
-.block:hover:not(.homepage:disabled) {
+.block:hover:not(.listpage:disabled) {
     transform: scale(1.1);
 }
 
-.homepage {
+.listpage {
     margin-bottom: 6px;
 }
+
 
 .chapterpage {
     margin-bottom: 15px;
 }
 
-.homepage:disabled {
+.listpage:disabled {
     opacity: 50%;
     cursor: not-allowed;
     pointer-events: none;
