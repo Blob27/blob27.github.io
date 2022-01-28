@@ -12,6 +12,17 @@ h1 {
     text-align: center;
 }
 
+hr {
+    width: 25%;
+    margin: 25px auto;
+}
+
+@media (max-width: 1000px) {
+    hr {
+        width: 50%;
+    }
+}
+
 body {
     height: 100%;
 }
