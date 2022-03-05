@@ -1,82 +1,94 @@
 @font-face {
-    font-family: 'GeometosNeue';
-    src: url('Fonts/GeometosNeueBlack.woff') format('woff'),
-        url('Fonts/GeometosNeueBlack.woff2') format('woff2'),
-        url('Fonts/GeometosNeueBlack.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
+  font-family: "GeometosNeue";
+  src: url("Fonts/GeometosNeueBlack.woff") format("woff"),
+    url("Fonts/GeometosNeueBlack.woff2") format("woff2"),
+    url("Fonts/GeometosNeueBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
 }
 h1 {
-    font-family: GeometosNeue;
-    color: #46bddf;
-    text-align: center;
+  font-family: GeometosNeue;
+  color: #46bddf;
+  text-align: center;
 }
 
 hr {
-    width: 25%;
-    margin: 25px auto;
+  width: 25%;
+  margin: 25px auto;
 }
 
 @media (max-width: 1000px) {
-    hr {
-        width: 50%;
-    }
+  hr {
+    width: 50%;
+  }
 }
 
 body {
-    height: 100%;
+  height: 100%;
 }
 
 html {
-    height: 100%;
-    background-color: #212121;
+  height: 100%;
+  background-color: #212121;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    html {
-      scroll-behavior: smooth;
-    }
+  html {
+    scroll-behavior: smooth;
   }
+}
 
 .block {
-    display: block;
-    margin: 0 auto;
-    width: 30%;
-    border: none;
-    background-color: #04AA6D;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 28px;
-    font-family: GeometosNeue;
-    color: #1a1919;
-    transition: all .2s ease-in-out;
-    user-select: none;
-    white-space: nowrap;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  border: none;
+  background-color: #04aa6d;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 28px;
+  font-family: GeometosNeue;
+  color: #1a1919;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  white-space: nowrap;
 }
 
 @media (max-width: 1000px) {
-    .block {
-        width: 60%;
-    }
+  .block {
+    width: 60%;
+  }
 }
 
 .block:hover:not(.listpage:disabled) {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .listpage {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
-
 .chapterpage {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .listpage:disabled {
-    opacity: 50%;
-    cursor: not-allowed;
-    pointer-events: none;
+  opacity: 50%;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+#discord {
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #04aa6d;
+  height: 40px;
+  width: 200px;
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
