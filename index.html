@@ -74,7 +74,8 @@
       </div>
       <button
         id="copy"
-        onclick="document.getElementById('copy').innerHTML = 'Copied: Blobo#3686';"
+        onclick="navigator.clipboard.writeText('Blobo#3686'); 
+        document.getElementById('copy').innerHTML = 'Copied: Blobo#3686';"
         onmouseout="document.getElementById('copy').innerHTML = 'copy'"
       >
         copy
