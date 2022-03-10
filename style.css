@@ -92,3 +92,16 @@ html {
   justify-content: center;
   cursor: pointer;
 }
+
+#copy {
+  margin: 0 auto;
+  margin-top: 5px;
+  background-color: #04aa6d;
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: GeometosNeue;
+}
